@@ -35,9 +35,7 @@ Tested with Python 3.13. Other useful options: `--repeats N`, `--optimisers Adam
 `--keep-censored`, `--csv your.csv --label-col y`.
 
 ## Results included in this repository
-`runs.csv, summary.csv, stats.csv, fig_auc.png and fig_convergence.png` contains the files produced by the run reported in the manuscript.
-Mean test AUC: Adam 0.635, SGD 0.630, COBYLA 0.626, QBO 0.610, SPSA 0.579, logistic regression 0.651.
-No circuit optimiser differed significantly from QBO after Bonferroni correction.
+The files runs.csv, summary.csv, stats.csv, fig_auc.png and fig_convergence.png in the top level of this repository are the output of the run reported in the manuscript. Mean test AUC: Adam 0.635, SGD 0.630, COBYLA 0.626, QBO 0.610, SPSA 0.579, logistic regression 0.651. No circuit optimiser differed significantly from QBO after Bonferroni correction.
 
 ## Limitations
 Noiseless simulation only; no quantum hardware or noise model. Small circuit and four input features.
